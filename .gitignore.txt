@@ -1,0 +1,45 @@
+## Ignore build results
+bin/
+obj/
+
+## Ignore user-specific files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+## Ignore Visual Studio temporary files
+.vscode/
+.vs/
+
+## Ignore database files
+*.mdf
+*.ldf
+
+## Ignore NuGet packages
+*.nupkg
+packages/
+*.snupkg
+
+## Ignore log files
+*.log
+
+## Ignore publish folder
+publish/
+out/
+
+## Ignore environment config
+appsettings.Development.json
+
+## Ignore system files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+## Ignore Web auto-generated files
+wwwroot/lib/
+node_modules/
+
+# Rider project files
+.idea/
+*.sln.iml
