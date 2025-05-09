@@ -1,0 +1,88 @@
+﻿body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background: #008080;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 40px;
+    align-items: center;
+}
+
+    header nav a {
+        color: white;
+        text-decoration: none;
+        margin: 0 10px;
+    }
+
+.hero {
+    background: #f0f0f0;
+    display: flex;
+    padding: 50px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.hero-text {
+    max-width: 50%;
+}
+
+    .hero-text h1 {
+        font-size: 36px;
+        margin-bottom: 20px;
+    }
+
+.hero .btn {
+    display: inline-block;
+    background: #008080;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.category-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    padding: 20px 40px;
+}
+
+.category-item {
+    background: #eee;
+    padding: 20px;
+    text-align: center;
+    border-radius: 8px;
+    font-size: 18px;
+}
+
+.features {
+    background: #f9f9f9;
+    padding: 30px 40px;
+}
+
+    .features ul {
+        list-style: none;
+        padding: 0;
+    }
+
+    .features li {
+        margin: 10px 0;
+        font-size: 16px;
+    }
+
+footer {
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+.container {
+    max-width: 1200px;   /* Giới hạn chiều rộng */
+    margin: 0 auto;      /* Căn giữa theo chiều ngang */
+    padding: 0 20px;     /* Thụt lề bên trái/phải */
+}

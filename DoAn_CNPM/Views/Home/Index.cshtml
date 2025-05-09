@@ -1,0 +1,53 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+    Layout = null;
+}
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/DoAn_CNPM.styles.css" asp-append-version="true" />
+</head>
+<body>
+    <header>
+        <div class="logo">🛒 Chợ Đồ Cũ Sinh Viên</div>
+        <nav>
+
+            <a href="/">Trang chủ</a>
+            <a href="/SanPham/DanhMuc">Danh mục</a>
+            <a href="/SanPham/DangTin">Đăng tin</a>
+            <a href="/Home/LienHe">Liên hệ</a>
+            <partial name="_LoginPartial" />
+        </nav>
+
+    </header>
+    <div class="container">
+        <section class="hero">
+            <div class="hero-text">
+                <h1>Chợ Đồ Cũ Sinh Viên</h1>
+                <p>Mua bán đồ cũ dễ dàng – tiết kiệm – nhanh chóng!</p>
+                <a href="/SanPham/DanhMuc" class="btn">Khám phá ngay</a>
+            </div>
+            <img src="~/images/hero.jpg" alt="Đồ cũ sinh viên" />
+        </section>
+
+        <section class="features">
+            <h2>Vì sao chọn chúng tôi?</h2>
+            <ul>
+                <li>✅ Đăng tin dễ dàng</li>
+                <li>✅ Chat trực tiếp với người bán</li>
+                <li>✅ Miễn phí hoàn toàn</li>
+                <li>✅ Phù hợp cho cộng đồng sinh viên</li>
+            </ul>
+        </section>
+
+    </div>
+
+
+</body>
+</html>
